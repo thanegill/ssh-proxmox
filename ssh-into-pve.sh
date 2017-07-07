@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 set -e
 
-PVE_DOMAIN="${PVE_DOMAIN:-vanguard.vashonsd.org}"
+PVE_DOMAIN="${PVE_DOMAIN:localhost}"
 
 function list_of_containers() {
     for i in $(seq 1 3); do
